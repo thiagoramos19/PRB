@@ -1,0 +1,114 @@
+body{
+    margin: 0%;
+    background-color: #fff4c8;
+    display: block;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+nav{
+    display: flex;
+    position: absolute;
+    background-color: #00bf63;
+    height: 100px;
+    width: 100%;
+    float: left;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+#menu{
+    display: flex;
+    float: right;
+    justify-content: space-between;
+    width: 770px;
+   
+}
+
+#menu li{
+    display: flex;
+
+    float: left;
+    
+}
+
+#menu ul{
+    padding: 0%;
+    display: flex;
+    align-items: center;
+    width: 730px;
+    vertical-align: middle;
+    margin-top: 0;
+    justify-content: space-between;
+}
+
+#menu li a{
+    font-family: 'Montsserat', sans-serif;
+    text-decoration: black;
+    color: black;
+}
+
+#slogan{
+    position: absolute;
+    top: 100px;
+    width: -webkit-fill-available;
+
+    margin: 20px;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    display: flex;
+    position: absolute;
+    padding: 0px 30px 30px 30px;
+    align-items: center;
+    top: 175px;
+
+    min-height: -webkit-fill-available;
+    width: -webkit-fill-available;
+    vertical-align: middle;
+}
+#green{
+    position: absolute;
+    float: right;
+    width: 45%;
+    background-color: #00bf63;
+    padding: 10px;
+    height: 721px;
+}
+#green ul{
+  
+    justify-content: space-between;
+}
+#green ul li{
+    text-align: justify;
+    font-size: 25px;
+    font-family: 'Montsserat', sans-serif;
+    color: #fff9e2;
+    margin: 30px 20px 30px 20px;
+}
+#green h2{
+    margin-left: 20px;
+    color: #fff4c8;
+    font-size: 30px;
+    font-family: 'Montsserat', sans-serif;
+}
+
+#content{
+    float: right;
+    height: 330px;
+    width: 45%;
+    background-color: yellow;
+}
+
+#yellow{
+    height: 330px;
+    width: 45%;
+    background-color: yellow;
+}
+
+
