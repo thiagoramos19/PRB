@@ -1,13 +1,12 @@
+/*definções para o corpo*/
+
 body{
     margin: 0%;
     background-color: #fff4c8;
     display: block;
 }
 
-.logo{
-    width: 100px;
-    height: 100px;
-}
+/*definições para a parte de navegação*/
 nav{
     display: flex;
     position: absolute;
@@ -18,6 +17,12 @@ nav{
     justify-content: space-between;
     vertical-align: middle;
 }
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
 
 #menu{
     display: flex;
@@ -50,6 +55,7 @@ nav{
     color: black;
 }
 
+/*definições para o slogan*/
 #slogan{
     position: absolute;
     top: 100px;
@@ -61,6 +67,7 @@ nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/*definições para o a parte "home" do site*/
 header{
     display: flex;
     position: absolute;
@@ -68,14 +75,17 @@ header{
     align-items: center;
     top: 175px;
 
-    min-height: -webkit-fill-available;
+    max-height: -webkit-fill-available;
     width: -webkit-fill-available;
     vertical-align: middle;
+    justify-content: space-between;
 }
+
+/*definições para as propostas*/
 #green{
     position: absolute;
     float: right;
-    width: 45%;
+    width: 48%;
     background-color: #00bf63;
     padding: 10px;
     height: 721px;
@@ -89,7 +99,10 @@ header{
     font-size: 25px;
     font-family: 'Montsserat', sans-serif;
     color: #fff9e2;
-    margin: 30px 20px 30px 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 #green h2{
     margin-left: 20px;
@@ -98,17 +111,58 @@ header{
     font-family: 'Montsserat', sans-serif;
 }
 
+/*definições para a ideologia e o líder*/
+
 #content{
     float: right;
-    height: 330px;
-    width: 45%;
-    background-color: yellow;
+    height: 741px;
+    width: 48%;
+    justify-content: space-between;
+    
 }
 
+/*definições para a ideologia*/
+
 #yellow{
-    height: 330px;
-    width: 45%;
-    background-color: yellow;
+    float: right;
+
+    height: 360.5px;
+    width: -webkit-fill-available;
+    background-color: #fedd59;
+}
+#text-yellow{
+    text-align: justify;
+    font-size: 30px;
+    font-family: 'Montsserat', sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/*definições para o líder*/
+
+#blue{
+    float: right;
+    display: flex;
+    height: 360.5px;
+    width: -webkit-fill-available;
+    margin-top: 20px;
+    background-color: #5270fe;
+}
+
+.capitao{
+    width: 315px;
+    height: 315px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#text-blue{
+    
+    text-align: justify;
+    font-size: 22px;
+    font-family: 'Montsserat', sans-serif;
+    width: 490px;
+    margin-left: 20px;
 }
 
 
